@@ -1,0 +1,28 @@
+[debug] [2017-07-02T04:51:57.465Z] ----------------------------------------------------------------------
+[debug] [2017-07-02T04:51:57.481Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\guiil\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-07-02T04:51:57.481Z] CLI Version:  3.9.1
+[debug] [2017-07-02T04:51:57.481Z] Platform:     win32
+[debug] [2017-07-02T04:51:57.481Z] Node Version: v8.1.3
+[debug] [2017-07-02T04:51:57.481Z] Time:         Sun Jul 02 2017 01:51:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-07-02T04:51:57.481Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-02T04:51:57.481Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-02T04:51:57.496Z] > authorizing via signed-in user
+[debug] [2017-07-02T04:51:57.496Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/fantasyeleague-e5f3d  
+ Sun Jul 02 2017 01:51:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-07-02T04:51:58.397Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-02T04:51:58.397Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/fantasyeleague-e5f3d/tokens  
+ Sun Jul 02 2017 01:51:58 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-07-02T04:51:59.067Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\guiil\Desktop\functions\jogador'...
+[info] 
+[debug] [2017-07-02T04:51:59.083Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/fantasyeleague-e5f3d  
+ Sun Jul 02 2017 01:51:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-07-02T04:52:00.031Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-02T04:52:00.031Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/64512094908/clients/_:getWebAppConfig  
+ Sun Jul 02 2017 01:52:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2017-07-02T04:52:00.818Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-02T04:52:00.849Z] TypeError: Cannot read property 'public' of undefined
+[error] 
+[error] Error: An unexpected error has occurred.

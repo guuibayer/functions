@@ -1,15 +1,14 @@
+const functions = require('firebase-functions');
+const admin = require('firebase-admin');
 
-const functions = require('firebase-functions')
-const admin = require('firebase-admin')
-​
-admin.initializeApp(functions.config().firebase)
-​
+admin.initializeApp(functions.config().firebase);
+
 exports.usuario = functions.https.onRequest((req, res) => {
   if (!req.body) {
-    res.status(400)
-    return
+    res.status(400);
+    return;
   }
-​
+
   const object = {
     nome: req.body.nome,
     posicao_lane: req.body.posicao_lane,
@@ -29,4 +28,5 @@ exports.usuario = functions.https.onRequest((req, res) => {
     .ref('/usuarios')
     .push(object)
     .then(() => res.status(200))
+    .catch(() => res.status(400))
 })

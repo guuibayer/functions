@@ -1,5 +1,5 @@
 {
-  "name": "usuario",
+  "name": "jogador",
   "description": "Cloud Functions for Firebase",
   "dependencies": {
     "firebase-admin": "~4.2.1",
